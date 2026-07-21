@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(135deg,#141e30,#243b55);
+
+}
+
+.container{
+
+    width:420px;
+    padding:30px;
+    border-radius:20px;
+
+    background:rgba(255,255,255,.1);
+
+    backdrop-filter:blur(10px);
+
+    text-align:center;
+
+    color:white;
+
+    box-shadow:0 15px 30px rgba(0,0,0,.4);
+
+}
+
+h1{
+
+    margin-bottom:30px;
+    letter-spacing:2px;
+
+}
+
+#display{
+
+    font-size:42px;
+
+    margin-bottom:30px;
+
+    font-weight:bold;
+
+}
+
+.buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+}
+
+button{
+
+    padding:12px 22px;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    transform:scale(1.05);
+
+}
+
+#start{
+
+    background:#2ecc71;
+    color:white;
+
+}
+
+#pause{
+
+    background:#f39c12;
+    color:white;
+
+}
+
+#reset{
+
+    background:#e74c3c;
+    color:white;
+
+}
+
+#lap{
+
+    background:#3498db;
+    color:white;
+
+}
+
+.lap-box{
+
+    margin-top:30px;
+
+    text-align:left;
+
+}
+
+.lap-box h2{
+
+    margin-bottom:10px;
+
+}
+
+#laps{
+
+    max-height:180px;
+
+    overflow-y:auto;
+
+}
+
+#laps li{
+
+    list-style:none;
+
+    background:rgba(255,255,255,.15);
+
+    padding:10px;
+
+    margin-bottom:10px;
+
+    border-radius:8px;
+
+}
